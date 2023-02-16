@@ -1,7 +1,44 @@
-const Header = () => (
-  <header>
-    <h1>Header</h1>
-  </header>
-);
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { FaMicrophone } from 'react-icons/fa';
+import { IoIosSettings, IoIosArrowBack } from 'react-icons/io';
+import header from './Header.module.css';
+import { displayCountryMap } from '../../redux/POLLUTION/pollution';
+
+const Header = () => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const setDisplay = () => {
+    navigate(-1);
+    dispatch(displayCountryMap(false));
+  };
+
+  const year = new Date().getFullYear();
+
+  return (
+    <div className={header.contanier}>
+      <div className={header.left_side}>
+        <button
+          type="button"
+          onClick={setDisplay}
+          className={header.button_style}
+        >
+          <IoIosArrowBack className={header.left_side_arrow} />
+        </button>
+        <span className={header.left_side_text} data-testid="year">
+          {' '}
+          {year}
+        </span>
+      </div>
+      <h3>Most views</h3>
+
+      <div className={header.right_side}>
+        <FaMicrophone className={header.icon} />
+        <IoIosSettings className={header.icon_gear} />
+      </div>
+    </div>
+  );
+};
 
 export default Header;
