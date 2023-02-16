@@ -1,5 +1,5 @@
-import store from '../../configureStore';
-import { fetchCountrySuccess } from '../countries';
+import store from '../../configureStore.js';
+import { fetchCountrySuccess } from '../countries.js';
 
 const mocked = [
   {
