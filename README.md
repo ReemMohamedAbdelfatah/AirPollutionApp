@@ -40,9 +40,10 @@ React group project
 <a name="built-with"> React </a>
 <a name="built-with"> Redux </a>
 <a name="built-with"> React Bootstrap</a>
+<a name="built-with"> Hooks</a>
 
 ### Tech Stack 
-<a name="tech-stack"></a>
+<a name="tech-stack">React Redux</a>
 
 
 <details>
@@ -64,7 +65,8 @@ React group project
 <details>
 <summary>Database</summary>
   <ul>
-   <li><a href="https://localStorage.com/">Consume APIs</a></li>
+   <li><a href="https://restcountries.com/">Restcountries API</a></li>
+   <li><a href="https://openweathermap.org/api/air-pollution">OpenWeatherMap API</a></li>
   </ul>
 </details>
 
@@ -79,14 +81,11 @@ React group project
 
 ## Screenshots
 
-## Rockets View
-![Rockets_View](./src/assets/screenshoot_rockets.png)
+## Countries_View
+![Countries_View](./src/assets/continents-screenshoot.png)
 
-## Missions_View
-![Missions_View](./src/assets/screenshoot_missions.png)
-
-## MyProfile_View
-![MyProfile_View](./src/assets/screenshoot_myprofile.png)
+## Pollution_View
+![Pollution_View](./src/assets/Pollution-screenshoot.png)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -97,7 +96,17 @@ Coming soon!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+- This project was bootstrapped with Create React App.
+- Clone this repo to your local machine 
+- cd into the folder and run npm install to install all the dependencies.
+- Run npm start to start the app.
+- Open http://localhost:3000 to view it in the browser.
+- The page will reload if you make edits.
+- You will also see any lint errors in the console.
+- Run npm run build to build the app for production to the build folder.
+- It correctly bundles React in production mode and optimizes the build for the best performance.
+- The build is minified and the filenames include the hashes.
+- Your app is ready to be deployed!
 
 ### Prerequisites
 
@@ -105,18 +114,24 @@ In order to run this project you need:
 
 - Have visual studio Code in your PC.
 - Have a verified GitHub account.
+- A code editor
+- Nodejs
+- NPM
 - Have a stable browser version.
 
 ### Setup
 
+- Create a local directory where you can clone the project.
 - Clone this repository to your desired folder using terminal: 
-git clone https://github.com/ReemMohamedAbdelfatah/Space-Travelers-Hub.git
+git clone https://github.com/ReemMohamedAbdelfatah/air-pollution-app.git
+- Install the dependencies
+- Open the project on a browser
 
 ### Install
 
 Install this project with:
 
-- React Redux
+- Just run npm i to install all dependencies
 
 ### Usage
 
@@ -153,6 +168,7 @@ Coming Soon ....
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Better_design]**
+- [ ] **[Add_map_foreach_country]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +176,7 @@ Coming Soon ....
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ReemMohamedAbdelfatah/air-pollution-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +191,7 @@ If you like this project please star the project and feel free to add your own t
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank...
+I would like to thank microverse for the great resources shared. Also I would like to thanks Nelson Sakwa for Original Design Official Behance Page @NelsonSakwa, Api - Open Weather
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
