@@ -1,5 +1,5 @@
-import store from '../../configureStore';
-import { fetchPollutionSuccess } from '../pollution';
+import store from '../../configureStore.js';
+import { fetchPollutionSuccess } from '../pollution.js';
 
 const mocked = {
   coord: {

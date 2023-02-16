@@ -6,11 +6,11 @@ import map from '../../assets/map.png';
 import pollutionContent, {
   airRiskRate,
   spliter,
-} from './pollutionUtilitiesContent';
+} from './pollutionUtilitiesContent.js';
 import {
   fecthPollution,
   displayCountryMap,
-} from '../../redux/POLLUTION/pollution';
+} from '../../redux/POLLUTION/pollution.js';
 import pollution from './PollutionData.module.css';
 
 // Component PollutionData

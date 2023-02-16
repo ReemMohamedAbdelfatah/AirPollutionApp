@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { fecthCountry } from '../../redux/Country/countries';
+import { fecthCountry } from '../../redux/Country/countries.js';
 import hero from './Hero.module.css';
 import map from '../../assets/map.png';
 

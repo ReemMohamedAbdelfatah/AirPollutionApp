@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
 import { IoIosSettings, IoIosArrowBack } from 'react-icons/io';
 import header from './Header.module.css';
-import { displayCountryMap } from '../../redux/POLLUTION/pollution';
+import { displayCountryMap } from '../../redux/POLLUTION/pollution.js';
 
 const Header = () => {
   const navigate = useNavigate();
