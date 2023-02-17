@@ -10,7 +10,7 @@ import pollutionContent, {
 import {
   fecthPollution,
   displayCountryMap,
-} from '../../redux/POLLUTION/pollution.js';
+} from '../../redux/Pollution/pollution.js';
 import pollution from './PollutionData.module.css';
 
 // Component PollutionData

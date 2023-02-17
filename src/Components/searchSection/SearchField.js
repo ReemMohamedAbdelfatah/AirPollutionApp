@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
-import { displayCountryMap } from '../../redux/POLLUTION/pollution.js';
+import { displayCountryMap } from '../../redux/Pollution/pollution.js';
 import { fecthCountry } from '../../redux/Country/countries.js';
 import search from './Search.module.css';
 import map from '../../assets/map.png';

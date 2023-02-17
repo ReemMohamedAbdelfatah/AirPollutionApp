@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import HeroSection from './components/hero/HeroSection.js';
-import Header from './components/header/Header.js';
-import SearchField from './components/searchSection/SearchField.js';
-import PollutionData from './components/pollutionDataPage/PollutionData.js';
+import HeroSection from './Components/hero/HeroSection.js';
+import Header from './Components/Header/Header.js';
+import SearchField from './Components/searchSection/SearchField.js';
+import PollutionData from './Components/pollutionDataPage/PollutionData.js';
 
 function App() {
   return (
