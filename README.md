@@ -72,10 +72,9 @@ React group project
 
 ### Key Features <a name="key-features"></a>
 
-- **[book_rockets]**
-- **[cancel_book_rocket]**
-- **[join_mission]**
-- **[leave_mission]**
+- **[Show-Countries-per-continenet]**
+- **[Show-pollution-Rate]**
+- **[show-gas-combination]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +88,7 @@ React group project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://)
+- [Live Demo Link](https://airpollutionapp.onrender.com/)
 Coming soon!
 
 ## Demonstration Video
