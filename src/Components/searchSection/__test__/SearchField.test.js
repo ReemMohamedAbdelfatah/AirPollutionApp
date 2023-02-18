@@ -3,7 +3,7 @@ import { screen, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 const SearchField = () => (
-  <div class="container">
+  <div className="container">
     SearchField
   </div>
 );
