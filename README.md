@@ -146,13 +146,13 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-Coming Soon ....
+Follow this Link instructions: https://create-react-app.dev/docs/running-tests/
 
 ### Deployment
 
 You can deploy this project using:
 
-Coming Soon ....
+Render 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,6 +214,6 @@ I would like to thank microverse for the great resources shared. Also I would li
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE/MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
