@@ -7,11 +7,9 @@ import header from './Header.module.css';
 import { displayCountryMap } from '../../redux/Pollution/pollution.js';
 
 const Header = () => {
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const setDisplay = () => {
-    navigate(-1);
-    dispatch(displayCountryMap(false));
+  const SetDisplay = () => {
+    useNavigate(-1);
+    useDispatch(displayCountryMap(false));
   };
 
   const year = new Date().getFullYear();
@@ -21,7 +19,7 @@ const Header = () => {
       <div className={header.left_side}>
         <button
           type="button"
-          onClick={setDisplay}
+          onClick={SetDisplay}
           className={header.button_style}
         >
           <IoIosArrowBack className={header.left_side_arrow} />

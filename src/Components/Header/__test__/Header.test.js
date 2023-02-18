@@ -1,16 +1,11 @@
 import React from 'react';
-import { screen, render } from '@testing-library/react';
-import '@testing-library/jest-dom';
+import Header from '../Header';
+import renderer from 'react-test-renderer';
 
-const Header = () => (
-  <div>
-    <h1>Header</h1>
-  </div>
-);
-
-describe('Header', () => {
-  test('render React component', () => {
-    render(<Header />);
-    expect(screen.getByText('Header')).toBeInTheDocument();
-  });
-});
+test('header snapshot test',()=>{
+  const component = renderer.create(
+    <Header />
+  );
+  let tree = component.toJSON();
+  expect(tree).toMatchSnapshot();
+})
