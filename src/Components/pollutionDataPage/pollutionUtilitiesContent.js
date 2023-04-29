@@ -1,4 +1,4 @@
-/* eslint-disable react/no-array-index-key */
+import { v4 as uuidv4 } from 'uuid';
 import pollution from './PollutionData.module.css';
 
 export const spliter = (id) => {
@@ -60,8 +60,8 @@ export const gasValue = (storeTest, gas) => {
 };
 const pollutionContent = (storeTest, gas) => {
   const pollutionData = storeTest
-    ? gas.map((item, index) => (
-      <div key={index} className={pollution.table_container}>
+    ? gas.map((item) => (
+      <div key={uuidv4()} className={pollution.table_container}>
         <div className={pollution.gas_info}>
           {' '}
           <div className={pollution.space}> Carbon monoxide ( CO ) </div>

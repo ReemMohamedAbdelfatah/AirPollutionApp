@@ -7,9 +7,11 @@ import header from './Header.module.css';
 import { displayCountryMap } from '../../redux/Pollution/pollution.js';
 
 const Header = () => {
+  const Navigate = useNavigate();
+  const dispatch = useDispatch();
   const SetDisplay = () => {
-    useNavigate(-1);
-    useDispatch(displayCountryMap(false));
+    Navigate(-1);
+    dispatch(displayCountryMap(false));
   };
 
   const year = new Date().getFullYear();

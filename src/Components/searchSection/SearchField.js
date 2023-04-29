@@ -1,7 +1,7 @@
-/* eslint-disable react/no-array-index-key */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 import { displayCountryMap } from '../../redux/Pollution/pollution.js';
 import { fecthCountry } from '../../redux/Country/countries.js';
 import search from './Search.module.css';
@@ -25,11 +25,11 @@ const SearchField = () => {
   };
 
   const countryField = country.length !== 0
-    ? country[0].map((field, index) => (
+    ? country[0].map((field) => (
       <NavLink
         to={`/pollution/${field.latlag}:${field.name}:${field.code}`}
         className={search.nav}
-        key={index}
+        key={uuidv4()}
         onClick={setDisplay}
       >
         <div className={search.item_grid}>
