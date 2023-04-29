@@ -1,4 +1,3 @@
-/* eslint-disable object-curly-newline */
 import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
